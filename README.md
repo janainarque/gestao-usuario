@@ -1,11 +1,33 @@
-# Postalis | Gestão de Usuário
+# Gestão de Usuário
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Estrutura do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- Git e Github
+- MySQL
+
+
+## 💻 Projeto
 
 * Este é um projeto de uma aplicação PHP para registro, login e gerenciamento de perfil de usuários. 
 A aplicação utiliza MySQL para armazenamento de dados e inclui integração com CSS para layout e JavaScript para interatividade.
 
+
 ## Estrutura do Projeto
 
 <img src="assets/img/estrutura_pastas.png" alt="Estrutura do Projeto" width="400" height="400">
+
 
 ## Explicação das Pastas e Arquivos
 
@@ -23,7 +45,8 @@ A aplicação utiliza MySQL para armazenamento de dados e inclui integração co
 
 7. README.md: Documentação do projeto.
 
-## Configuração
+
+## 🛠️ Configuração
 
 1. **Clone o Repositório**: 
    - Clone este repositório: `git clone https://github.com/janainarque/gestao-usuario.git `
@@ -46,6 +69,7 @@ A aplicação utiliza MySQL para armazenamento de dados e inclui integração co
    - Erro ao Conectar ao Banco de Dados: Verifique as credenciais no arquivo config/config.php e se o servidor MySQL está funcionando corretamente.
    - Página Não Encontrada: Certifique-se de que a URL está correta e que o arquivo .htaccess está presente e configurado corretamente para redirecionar as requisições para o index.php.
 
-## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## :memo: Licença
+
+Esse projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
