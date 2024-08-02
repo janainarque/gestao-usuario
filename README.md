@@ -5,39 +5,7 @@ A aplicação utiliza MySQL para armazenamento de dados e inclui integração co
 
 ## Estrutura do Projeto
 
-gestao-usuario/
-├── assets/
-│   ├── css/
-│   │   ├── dashboard.css
-│   │   ├── registrar.css
-│   │   └── style.css
-│   ├── img/
-│   │   ├── figma.svg
-│   │   ├── icon-design.svg
-│   │   ├── icon-dev.svg
-│   │   ├── icon-quote.svg
-│   │   ├── logo_postalis.svg
-│   │   └── react.svg
-│   └── js/
-│       ├── dashboard.js
-│       ├── editar.js
-│       ├── registrar.js
-│       └── script.js
-├── config/
-│   ├── config.php
-│   └── protecao.php
-├── controllers/
-│   ├── AuthController.php
-│   └── ProfileController.php
-├── models/
-│   └── UserModel.php
-├── views/
-│   ├── dashboard.php
-│   ├── logout.php
-│   └── registrar.php
-├── index.php
-├── install.php
-└── README.md
+<img src="assets/img/estrutura_pastas.png" alt="Estrutura do Projeto" width="800" height="800">
 
 ## Explicação das Pastas e Arquivos
 
@@ -58,14 +26,13 @@ gestao-usuario/
 ## Configuração
 
 1. **Clone o Repositório**: 
-   - Clone este repositório: `git clone:  https://github.com/janainarque/gestao-usuario.git `
-   - Navegue até o diretório do projeto: `cd gestao-usuario`
+   - Clone este repositório: `git clone https://github.com/janainarque/gestao-usuario.git `
 
 2. **Configure as Credenciais do Banco de Dados**: 
    - Configure as credenciais do banco de dados no arquivo `config/config.php`.
 
 3. **Crie o Banco de Dados e as Tabelas**:
-   - Para configurar o banco de dados e as tabelas, acesse o seguinte URL no seu navegador: http://localhost:8080/gestao-usuario-postalis/install.php
+   - Para configurar o banco de dados e as tabelas, acesse o seguinte URL no seu navegador: http://localhost:8080/gestao-usuario/install.php
    - Este script criará o banco de dados e as tabelas necessárias para o funcionamento da aplicação.
 
 4. **Remova o Arquivo install.php**:
