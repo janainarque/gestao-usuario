@@ -5,7 +5,7 @@ A aplicação utiliza MySQL para armazenamento de dados e inclui integração co
 
 ## Estrutura do Projeto
 
-<img src="assets/img/estrutura_pastas.png" alt="Estrutura do Projeto" width="800" height="800">
+<img src="assets/img/estrutura_pastas.png" alt="Estrutura do Projeto" width="400" height="400">
 
 ## Explicação das Pastas e Arquivos
 
